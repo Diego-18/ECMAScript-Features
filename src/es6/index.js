@@ -69,7 +69,7 @@ const names = [
     {name: 'Diego', age: 24},
     {name: 'Maria', age:42}
 ]
-let listOfNames = names.map(item => console.log(item.name));
+let listOfNames = names.map(item => return console.log(item.name));
 
 // Forma 2
 // const listOfNames3 = (names, age, conuntry ) =>{
