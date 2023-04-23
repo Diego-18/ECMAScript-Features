@@ -6,8 +6,8 @@ console.log(array.flat())
 // flatmap permite realizar operaciones de acuerdo a un objeto contenido en un arreglo 
 // en este ejemplo esta aplicando una multiplicacion por 2 a cada uno de los valores que se encuentran dentro del array
 
-let array = [1,2,3,4,5,6];
-console.log(array.flatMap(value => [value, value * 2]));
+let array2 = [1,2,3,4,5,6];
+console.log(array2.flatMap(value => [value, value * 2]));
 
 // El trimStart permite eliminar todos los espacios en blancos al incicio de alguna variable
 // El trimEnd permite eliminar todos los espacios en blancos al final de alguna variable
